@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		6EF969BC27E8220600A750EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969BB27E8220600A750EB /* AppDelegate.swift */; };
-		6EF969BE27E8220600A750EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969BD27E8220600A750EB /* SceneDelegate.swift */; };
 		6EF969C027E8220600A750EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969BF27E8220600A750EB /* ViewController.swift */; };
-		6EF969C327E8220600A750EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF969C127E8220600A750EB /* Main.storyboard */; };
 		6EF969C527E8220700A750EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF969C427E8220700A750EB /* Assets.xcassets */; };
 		6EF969C827E8220700A750EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF969C627E8220700A750EB /* LaunchScreen.storyboard */; };
+		6EF969D527E82A0900A750EB /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969D427E82A0900A750EB /* StatusLabel.swift */; };
+		6EF969D927E8302F00A750EB /* UiStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969D827E8302F00A750EB /* UiStackView + Extensions.swift */; };
+		6EF969DC27E830F500A750EB /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969DB27E830F500A750EB /* MailTextField.swift */; };
+		6EF969DE27E832E500A750EB /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969DD27E832E500A750EB /* VerificationButton.swift */; };
+		6EF969E027E8346E00A750EB /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969DF27E8346E00A750EB /* MailCollectionView.swift */; };
+		6EF969E427E835FC00A750EB /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF969E327E835FC00A750EB /* MailCollectionViewCell.swift */; };
+		6EF96A2327F5580300A750EB /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96A2227F5580300A750EB /* VerificationModel.swift */; };
+		6EF96A2527F55E3C00A750EB /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96A2427F55E3C00A750EB /* String + Extensions.swift */; };
+		6EF96A2827F5984A00A750EB /* MailAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96A2727F5984A00A750EB /* MailAPIKey.swift */; };
+		6EF96A2A27F5991E00A750EB /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96A2927F5991E00A750EB /* NetworkRequest.swift */; };
+		6EF96A2C27F5A71900A750EB /* MailResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96A2B27F5A71900A750EB /* MailResponseModel.swift */; };
+		6EF96A2E27F5A92600A750EB /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96A2D27F5A92600A750EB /* NetworkDataFetch.swift */; };
+		6EF96A3027F6E50A00A750EB /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96A2F27F6E50A00A750EB /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6EF969B827E8220600A750EB /* TestTaskEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF969BB27E8220600A750EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EF969BD27E8220600A750EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6EF969BF27E8220600A750EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6EF969C227E8220600A750EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EF969C427E8220700A750EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EF969C727E8220700A750EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EF969C927E8220700A750EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF969D427E82A0900A750EB /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		6EF969D827E8302F00A750EB /* UiStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiStackView + Extensions.swift"; sourceTree = "<group>"; };
+		6EF969DB27E830F500A750EB /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		6EF969DD27E832E500A750EB /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		6EF969DF27E8346E00A750EB /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
+		6EF969E327E835FC00A750EB /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
+		6EF96A2227F5580300A750EB /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		6EF96A2427F55E3C00A750EB /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		6EF96A2727F5984A00A750EB /* MailAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAPIKey.swift; sourceTree = "<group>"; };
+		6EF96A2927F5991E00A750EB /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		6EF96A2B27F5A71900A750EB /* MailResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailResponseModel.swift; sourceTree = "<group>"; };
+		6EF96A2D27F5A92600A750EB /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		6EF96A2F27F6E50A00A750EB /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,106 @@
 		6EF969BA27E8220600A750EB /* TestTaskEmail */ = {
 			isa = PBXGroup;
 			children = (
+				6EF96A2627F5983000A750EB /* Network */,
+				6EF969CF27E824AC00A750EB /* Application */,
+				6EF969D027E824C600A750EB /* Models */,
+				6EF969D227E824EA00A750EB /* Views */,
+				6EF969D127E824D900A750EB /* Controllers */,
+				6EF969D327E8251800A750EB /* Resources */,
+				6EF969D627E82FF000A750EB /* Extensions */,
+			);
+			path = TestTaskEmail;
+			sourceTree = "<group>";
+		};
+		6EF969CF27E824AC00A750EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				6EF969BB27E8220600A750EB /* AppDelegate.swift */,
-				6EF969BD27E8220600A750EB /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6EF969D027E824C600A750EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EF96A2227F5580300A750EB /* VerificationModel.swift */,
+				6EF96A2B27F5A71900A750EB /* MailResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EF969D127E824D900A750EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				6EF969BF27E8220600A750EB /* ViewController.swift */,
-				6EF969C127E8220600A750EB /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6EF969D227E824EA00A750EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EF969E127E835D100A750EB /* Cells */,
+				6EF969E527E837F300A750EB /* VerificationVC */,
+				6EF96A2F27F6E50A00A750EB /* Alerts.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EF969D327E8251800A750EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				6EF969C427E8220700A750EB /* Assets.xcassets */,
 				6EF969C627E8220700A750EB /* LaunchScreen.storyboard */,
 				6EF969C927E8220700A750EB /* Info.plist */,
 			);
-			path = TestTaskEmail;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EF969D627E82FF000A750EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6EF969D727E8300700A750EB /* UIkit */,
+				6EF96A2427F55E3C00A750EB /* String + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6EF969D727E8300700A750EB /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+				6EF969D827E8302F00A750EB /* UiStackView + Extensions.swift */,
+			);
+			path = UIkit;
+			sourceTree = "<group>";
+		};
+		6EF969E127E835D100A750EB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6EF969E327E835FC00A750EB /* MailCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6EF969E527E837F300A750EB /* VerificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				6EF969D427E82A0900A750EB /* StatusLabel.swift */,
+				6EF969DB27E830F500A750EB /* MailTextField.swift */,
+				6EF969DD27E832E500A750EB /* VerificationButton.swift */,
+				6EF969DF27E8346E00A750EB /* MailCollectionView.swift */,
+			);
+			path = VerificationVC;
+			sourceTree = "<group>";
+		};
+		6EF96A2627F5983000A750EB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6EF96A2727F5984A00A750EB /* MailAPIKey.swift */,
+				6EF96A2927F5991E00A750EB /* NetworkRequest.swift */,
+				6EF96A2D27F5A92600A750EB /* NetworkDataFetch.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +240,6 @@
 			files = (
 				6EF969C827E8220700A750EB /* LaunchScreen.storyboard in Resources */,
 				6EF969C527E8220700A750EB /* Assets.xcassets in Resources */,
-				6EF969C327E8220600A750EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,22 +251,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF969C027E8220600A750EB /* ViewController.swift in Sources */,
+				6EF96A3027F6E50A00A750EB /* Alerts.swift in Sources */,
+				6EF969E427E835FC00A750EB /* MailCollectionViewCell.swift in Sources */,
+				6EF969D527E82A0900A750EB /* StatusLabel.swift in Sources */,
+				6EF96A2827F5984A00A750EB /* MailAPIKey.swift in Sources */,
 				6EF969BC27E8220600A750EB /* AppDelegate.swift in Sources */,
-				6EF969BE27E8220600A750EB /* SceneDelegate.swift in Sources */,
+				6EF96A2C27F5A71900A750EB /* MailResponseModel.swift in Sources */,
+				6EF96A2527F55E3C00A750EB /* String + Extensions.swift in Sources */,
+				6EF96A2327F5580300A750EB /* VerificationModel.swift in Sources */,
+				6EF969E027E8346E00A750EB /* MailCollectionView.swift in Sources */,
+				6EF96A2E27F5A92600A750EB /* NetworkDataFetch.swift in Sources */,
+				6EF969D927E8302F00A750EB /* UiStackView + Extensions.swift in Sources */,
+				6EF969DE27E832E500A750EB /* VerificationButton.swift in Sources */,
+				6EF96A2A27F5991E00A750EB /* NetworkRequest.swift in Sources */,
+				6EF969DC27E830F500A750EB /* MailTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6EF969C127E8220600A750EB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EF969C227E8220600A750EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6EF969C627E8220700A750EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,10 +407,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6JBWUYNSLZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestTaskEmail/Info.plist;
+				INFOPLIST_FILE = TestTaskEmail/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,10 +434,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6JBWUYNSLZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TestTaskEmail/Info.plist;
+				INFOPLIST_FILE = TestTaskEmail/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
